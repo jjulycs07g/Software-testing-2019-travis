@@ -36,7 +36,7 @@ public class TestDeposit {
 		double expected = 19178 * Math.pow( 1 + 0.03 , 40);
 		
 		// when...
-		when(userA.depositAmount()).thenReturn(存198178);
+		when(userA.depositAmount()).thenReturn(198178);
 		when(userA.depositInterest(anyInt()).thenReturn(0.03);
 		when(userA.expireEra()).thenReturn("昭和");
 		when(userA.expireYear()).thenReturn(64);
@@ -50,9 +50,11 @@ public class TestDeposit {
 	public void test1974To1994() {
 		// 從老師的年代到助教的年代,存一年薪水18000
 		// 利率都是5%
-
-		// when...
+		double expected = 19178 * Math.pow( 1 + 0.05 , 40);
 		
+		// when...
+		when(userA.depositAmount()).thenReturn(18000);
+		//when(
 		
 		
 		Deposit deposit = new Deposit(1974);
