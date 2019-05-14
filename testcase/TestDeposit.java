@@ -36,10 +36,10 @@ public class TestDeposit {
 		double expected = 19178 * Math.pow( 1 + 0.03 , 40);
 		
 		// when...
-		when(userA.depositAmount()).thenReturn(198178));
-		when(userA.depositInterest(anyInt()).thenReturn(0.03));
-		when(userA.expireEra()).thenReturn("昭和"));
-		when(userA.expireYear()).thenReturn(64));
+		when(userA.depositAmount()).thenReturn(198178);
+		when(userA.depositInterest(anyInt()).thenReturn(0.03);
+		when(userA.expireEra()).thenReturn("昭和");
+		when(userA.expireYear()).thenReturn(64);
 
 		Deposit deposit = new Deposit(1949);
 		String result = deposit.deposit(userA);
@@ -53,7 +53,7 @@ public class TestDeposit {
 		double expected = 19178 * Math.pow( 1 + 0.05 , 40);
 		
 		// when...
-		when(userA.depositAmount()).thenReturn(18000));
+		when(userA.depositAmount()).thenReturn(18000);
 		//when(
 		
 		
