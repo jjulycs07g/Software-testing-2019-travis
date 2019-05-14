@@ -1,4 +1,5 @@
 # Software-testing-2019-travis
+[![Build Status](https://travis-ci.org/jjulycs07g/Software-testing-2019-travis.svg?branch=master)](https://travis-ci.org/jjulycs07g/Software-testing-2019-travis)
 
 ## Makefile
 make [all]		- Compile JAVA class
