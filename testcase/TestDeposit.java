@@ -35,6 +35,7 @@ public class TestDeposit {
 		// 利率都是3%
 		double expected = 0;
 
+		
 		// when...
 
 		Deposit deposit = new Deposit(1949);
@@ -48,7 +49,9 @@ public class TestDeposit {
 		// 利率都是5%
 
 		// when...
-
+		
+		
+		
 		Deposit deposit = new Deposit(1974);
 		String result = deposit.deposit(userA);
 		assertEquals("平成6年: 47759", result);
