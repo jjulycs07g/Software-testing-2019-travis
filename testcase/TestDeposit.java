@@ -37,7 +37,7 @@ public class TestDeposit {
 		
 		// when...
 		when(userA.depositAmount()).thenReturn(198178);
-		when(userA.depositInterest(anyInt()).thenReturn(0.03);
+		when(userA.depositInterest(anyInt())).thenReturn(0.03);
 		when(userA.expireEra()).thenReturn("昭和");
 		when(userA.expireYear()).thenReturn(64);
 
